@@ -8,7 +8,7 @@ background-color: #FFF;}
 :root {--main-color: #4D5AE5;
  --primeri-color: #2E2F42;
 --wite-color: #FFF;
---text-color: #F4F4FD}
+--cloud-color: #F4F4FD;}
 /* main styles */
 
 /* heder styles */
@@ -150,7 +150,7 @@ background-color: #FFF;}
         letter-spacing: 0.03em;
         text-transform: uppercase;}
 
-        .end-text {color: var(--text-color);
+        .end-text {color: var(--cloud-color);
             font-size: 16px;
             font-weight: 400;
             line-height: 1.50;

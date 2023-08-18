@@ -1,5 +1,5 @@
 /* main styles */
-body{font-family: 'Roboto','Raleway',
+body{font-family: 'Roboto',
     sans-serif;
     color: #434455;
 background-color: #FFF;}
@@ -11,32 +11,35 @@ background-color: #FFF;}
 /* main styles */
 
 /* heder styles */
-.logo {color: var(--primeri-color);
-    font-family: "Raleway";
+.logo {color: var(--main-color);
+    font-family: "Raleway",sans-serif,;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.5;
     letter-spacing: 0.03em;
     text-transform: uppercase;}
 
-.first-part {color: var(--main-color);
-    font-family: "Raleway";
+.first-part {color: var(--primeri-color);
+    font-family: "Raleway",sans-serif,;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;}
 
 .page-nav-list {color: var(--primeri-color);
           font-size: 16px;
         font-weight: 500;
-        line-height: 1.62;
+        line-height: 1.5;
         letter-spacing: 0.02em;}
 
         .contakts-list-ltem {font-size: 16px;
             font-weight: 400;
             line-height: 1.62;
             letter-spacing: 0.02em;}
+
+.contakts { font-style: normal;}
+
 .mobile {color: #434455;}            
 .mail {color: #434455;}
 
@@ -53,18 +56,19 @@ background-color: #FFF;}
 /* Hero image */
 .hero-image-section {background-color: var(--primeri-color);}
 
-.hero-type {color: var(--wite-color);
+.hero-type {color: var(--wite-color);  text-align: center;
     font-size: 56px;
         font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 0.2em;}
+    letter-spacing: 0.02em;}
 
 .hero-button {color: var(--wite-color);
     background-color: var(--main-color);
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 1.07; 
-    letter-spacing: 0.02em;}    
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5; 
+    letter-spacing: 0.04em;
+    cursor: pointer;}    
 
     .hero-button:hover,
     .hero-button:focus {background-color: #404BBF;}
@@ -90,7 +94,11 @@ background-color: #FFF;}
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;}
+
+.team-list-item {background-color: #FFFFFF;}
 
 .team-list-name {color: var(--primeri-color);
     font-size: 20px;
@@ -101,7 +109,7 @@ background-color: #FFF;}
 .team-list-text {
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.5024px;
+    line-height: 1.5;
     letter-spacing: 0.02em;}    
 /* Our Team */
 
@@ -110,7 +118,9 @@ background-color: #FFF;}
     font-size: 20px;
     font-weight: 500;
     line-height: 1.20;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;}
 
 .portfolio-text {font-size: 16px;
     font-weight: 400;

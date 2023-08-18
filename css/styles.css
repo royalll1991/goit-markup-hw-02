@@ -41,16 +41,11 @@ background-color: #FFF;}
 
 .contakts { font-style: normal;}
 
-.mobile {line-height: 1.5;
-    color: #434455;}            
-.mail {line-height: 1.5;
-    color: #434455;}
+.contakts-link {line-height: 1.5;
+    color: #434455;} 
 
-.mobile:hover,
-.mobile:focus {color: #404BBF;}
-
-.mail:hover,
-.mail:focus {color: #404BBF;}
+.contakts-link:hover,
+.contakts-link:focus {color: #404BBF;}
 
 .page-nav-list:hover,
 .page-nav-list:focus {color: #404BBF;}
@@ -134,11 +129,11 @@ background-color: #FFF;}
 /* Footer */
 .the-end {background-color: var(--primeri-color);}
 
-.secondery-logo-text {color: var(--wite-color);
+.secondery-logo-text {color: var(--cloud-color);
     font-family: "Raleway",sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;}
 
@@ -146,7 +141,7 @@ background-color: #FFF;}
         font-family: "Raleway",sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;}
 

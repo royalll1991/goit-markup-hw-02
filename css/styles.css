@@ -7,20 +7,21 @@ background-color: #FFF;}
 .list {list-style-type: none;}
 :root {--main-color: #4D5AE5;
  --primeri-color: #2E2F42;
---wite-color: #FFF;}
+--wite-color: #FFF;
+--text-color: #F4F4FD}
 /* main styles */
 
 /* heder styles */
 .logo {color: var(--main-color);
-    font-family: "Raleway",sans-serif,;
+    font-family: "Raleway",sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.5;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;}
 
 .first-part {color: var(--primeri-color);
-    font-family: "Raleway",sans-serif,;
+    font-family: "Raleway",sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -40,8 +41,10 @@ background-color: #FFF;}
 
 .contakts { font-style: normal;}
 
-.mobile {color: #434455;}            
-.mail {color: #434455;}
+.mobile {line-height: 1.5;
+    color: #434455;}            
+.mail {line-height: 1.5;
+    color: #434455;}
 
 .mobile:hover,
 .mobile:focus {color: #404BBF;}
@@ -131,23 +134,23 @@ background-color: #FFF;}
 /* Footer */
 .the-end {background-color: var(--primeri-color);}
 
-.secondery-logo-text {color: var(--main-color);
-    font-family: "Raleway";
+.secondery-logo-text {color: var(--wite-color);
+    font-family: "Raleway",sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.16;
     letter-spacing: 0.03em;
     text-transform: uppercase;}
 
-    .secondery-logo {color: var(--wite-color);
-        font-family: "Raleway";
+    .secondery-logo {color: var(--main-color);
+        font-family: "Raleway",sans-serif;
         font-size: 18px;
         font-weight: 700;
         line-height: 1.16;
         letter-spacing: 0.03em;
         text-transform: uppercase;}
 
-        .end-text {color: var(--wite-color);
+        .end-text {color: var(--text-color);
             font-size: 16px;
             font-weight: 400;
             line-height: 1.50;
